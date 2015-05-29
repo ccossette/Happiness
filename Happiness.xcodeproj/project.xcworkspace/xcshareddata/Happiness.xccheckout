@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2F555FA9-1F7F-40ED-AA36-8CBE645E37AD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Happiness</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>42635D9C461C4B8BAB4BF414F1903C2CC0B76674</key>
+		<string>https://github.com/ccossette/Happiness.git</string>
+		<key>7BA445BF426F5FC7366774597F2EB2C5DA8165C2</key>
+		<string>github.com:ccossette/Happiness</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Happiness.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>42635D9C461C4B8BAB4BF414F1903C2CC0B76674</key>
+		<string>../../..</string>
+		<key>7BA445BF426F5FC7366774597F2EB2C5DA8165C2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ccossette/Happiness</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7BA445BF426F5FC7366774597F2EB2C5DA8165C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>42635D9C461C4B8BAB4BF414F1903C2CC0B76674</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7BA445BF426F5FC7366774597F2EB2C5DA8165C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Happiness</string>
+		</dict>
+	</array>
+</dict>
+</plist>

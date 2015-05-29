@@ -19,6 +19,18 @@
                             <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="1xv-IM-uhS" customClass="FaceView" customModule="Happiness" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                        <color key="value" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bFG-tp-PNf" appends="YES" id="Kvw-EY-Jrs"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -29,10 +41,18 @@
                             <constraint firstAttribute="trailing" secondItem="1xv-IM-uhS" secondAttribute="trailing" id="r0P-us-S97"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="1xv-IM-uhS" id="MxX-iJ-Xxf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TKz-2R-x1V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="bFG-tp-PNf">
+                    <connections>
+                        <action selector="changeHappiness:" destination="GCl-kY-Nbf" id="oTv-wN-r88"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="200" y="262"/>
+            <point key="canvasLocation" x="186" y="333"/>
         </scene>
     </scenes>
 </document>
